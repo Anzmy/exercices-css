@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 50%;
+    margin: 2rem auto;
+    border: 1px solid #000000;
+    padding-bottom: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1 {
+    margin: 2rem 0 1rem 0rem;
+    text-align: center;
+    width: 420px;
+}
+
+hr {
+    width: 50%;
+}
+
+ul {
+    margin-left: 3rem;
+    list-style-type: none;
+    width: 420px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(120, 47, 255);
+    transition: transform 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}

@@ -42,3 +42,16 @@ div {
     left: 220px;
 
 }
+
+.button {
+    display: inline-block;
+    position: absolute;
+    left: 2rem;
+    top: 470px;
+    border-radius: 10px;
+    background-color: #28d475;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 0.5rem;
+  }

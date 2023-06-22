@@ -13,7 +13,7 @@ li {
     text-align: center;
 }
     
-a { 
+li a { 
   height: 3rem;
   text-decoration: none;
   background-color: #eee;
@@ -21,8 +21,19 @@ a {
   display: block;
 }
 
-a:hover {
+li a:hover {
     background-color: black;
     color: white;
     cursor: pointer;
 }
+
+.button {
+    display: inline-block;
+    margin: 2rem 2rem;
+    border-radius: 10px;
+    background-color: #28d475;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 0.5rem;
+  }

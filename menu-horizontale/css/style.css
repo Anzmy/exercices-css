@@ -3,7 +3,6 @@ ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    border: solid 1px #000;
     font: 1rem Impact, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
@@ -26,4 +25,5 @@ a {
 a:hover {
  background-color: #000;
  color: white;
+ cursor: pointer;
 }

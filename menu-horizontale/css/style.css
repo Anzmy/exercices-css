@@ -1,0 +1,29 @@
+ul {
+    width: 609px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border: solid 1px #000;
+    font: 1rem Impact, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+    
+li {
+    line-height: 3rem;
+    text-align: center;
+    display: inline;
+}
+    
+a { 
+  height: 3rem;
+  text-decoration: none;
+  background-color: #eee;
+  color: #555;
+  display: inline-block;
+  min-width: 150px;
+}
+
+a:hover {
+ background-color: #000;
+ color: white;
+}
